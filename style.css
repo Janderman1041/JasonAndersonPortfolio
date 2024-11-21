@@ -51,8 +51,15 @@ html{
     height: 400px;
 }
 @media(max-width:1100px){
+    .headersection{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
     .container1{
         grid-template-columns: 1fr;
+    }
+    .bannerimg{
+        height: 160px;
     }
     
 }
