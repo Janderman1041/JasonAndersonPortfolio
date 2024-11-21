@@ -51,15 +51,21 @@ html{
     height: 400px;
 }
 @media(max-width:1100px){
-    .headersection{
-    display: grid;
-    grid-template-columns: 1fr;
-    }
     .container1{
+        display: grid;
+        grid-template-rows: 1fr;
         grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
     }
     .bannerimg{
-        height: 160px;
+        height: 180px;
+        width: 320px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .container1 div img{
+    height: 250px;
     }
     
 }
